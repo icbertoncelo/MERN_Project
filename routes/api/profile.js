@@ -6,7 +6,7 @@ mongoose.set("useFindAndModify", false);
 
 const passport = require("passport");
 
-// Load Inpu validation
+// Load Input validation
 const validateProfileInput = require("../../validation/profile");
 const validateExperienceInput = require("../../validation/experience");
 const validateEducationInput = require("../../validation/education");
