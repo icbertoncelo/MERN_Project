@@ -11,6 +11,7 @@ const store = createStore(
   initialState,
   compose(
     applyMiddleware(...middleware),
+    // Remove this line to test in mobile devices
     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
   )
 );
