@@ -131,7 +131,7 @@ class CreateProfile extends Component {
       { label: "Manager", value: "Manager" },
       { label: "Student or Learning", value: "Student or Learning" },
       { label: "Instructor or Teacher", value: "Instructor or Teacher" },
-      { label: "Inter", value: "Inter" },
+      { label: "Intern", value: "Intern" },
       { label: "Other", value: "Other" }
     ];
 
