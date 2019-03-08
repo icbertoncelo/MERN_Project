@@ -42,7 +42,6 @@ class CommentForm extends Component {
     this.setState({ [e.target.name]: e.target.value });
   }
 
-  onSubmit;
   render() {
     const { errors } = this.state;
 
@@ -62,10 +61,10 @@ class CommentForm extends Component {
                   onChange={this.onChange}
                   error={errors.text}
                 />
-                <button type="submit" className="btn btn-dark">
-                  Submit
-                </button>
               </div>
+              <button type="submit" className="btn btn-dark">
+                Submit
+              </button>
             </form>
           </div>
         </div>
